@@ -22,7 +22,7 @@ NumPy
 Installation
 
 ```bash
-git clone <your-repo-url>
+git clone <>
 cd FootballTracker
 pip install ultralytics opencv-python mediapipe numpy matplotlib
 
