@@ -20,9 +20,13 @@ OpenCV
 NumPy
 ---
 Installation
+
+```bash
 git clone <your-repo-url>
 cd FootballTracker
 pip install ultralytics opencv-python mediapipe numpy matplotlib
+
+```
 Download YOLOv8 pre-trained weights (yolov8n.pt) into the project folder
 
 ---
@@ -30,7 +34,10 @@ Usage
 
 1. Add your input video (video.mp4) in the project directory.
 2. Run the main script:
+```bash
 python FootBallTrack.py
+```
+
 3.Output: output.mp4 annotated with:
 Total ball touches
 Left/Right leg touches
@@ -49,10 +56,13 @@ Visualization: Overlays analytics on the output video.
 
 ---
 
-File Structure
-FootballTracker/
-├── FootBallTrack.py       # Main code
-├── video.mp4             # Input video
-├── output.mp4            # Annotated output
-├── yolov8n.pt            # YOLOv8 weights
-└── README.md             # This file
+## File Structure
+
+| File Name | Description |
+|-----------|-------------|
+| `FootBallTrack.py` | Main project script |
+| `video.mp4`        | Input video |
+| `output.mp4`       | Annotated output video |
+| `yolov8n.pt`       | YOLOv8 pre-trained weights |
+| `README.md`        | Project description |
+
